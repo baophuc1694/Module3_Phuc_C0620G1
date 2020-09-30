@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tu_dien_JSP:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d19c562-a82e-418b-b5c8-b28689bcc85c" name="Default Changelist" comment="" />
+    <list default="true" id="077b29d0-96b8-4422-b4d4-8ecf88aa672f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1hz0nZohcci2irfPOmEoUwTr8Go" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1hzCMDd9WcseSHtxRAJUpVyA1Ii" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,7 +36,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -29,14 +47,14 @@
     <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <deployment>
-        <artifact name="Product _Discount _Calculator:war exploded">
+        <artifact name="tu_dien_JSP:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_38_Product__Discount__Calculator" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_38_tu_dien_JSP" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -44,7 +62,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50081" />
+        <option name="DEBUG_PORT" value="50693" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -94,23 +112,40 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Product _Discount _Calculator:war exploded" />
+          <artifact name="tu_dien_JSP:war exploded" />
         </option>
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d19c562-a82e-418b-b5c8-b28689bcc85c" name="Default Changelist" comment="" />
-      <created>1600998780825</created>
+      <changelist id="077b29d0-96b8-4422-b4d4-8ecf88aa672f" name="Default Changelist" comment="" />
+      <created>1601004483827</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600998780825</updated>
-      <workItem from="1600998785087" duration="1336000" />
-      <workItem from="1601001016934" duration="683000" />
+      <updated>1601004483827</updated>
+      <workItem from="1601004486363" duration="2140000" />
+      <workItem from="1601287304725" duration="902000" />
     </task>
     <servers />
   </component>
@@ -118,61 +153,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601000127399">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601005130188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601000127399" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1601002838091">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601005130188" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1601006799667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601002838091" />
-    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1601000217333">
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601006799667" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1601005475930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601000217333" />
-    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1601000217333">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601005475930" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1601005475930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601000217333" />
-    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1601000217333">
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601005475930" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1601005475930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601000217333" />
-    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1601000217333">
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601005475930" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1601005475930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601000217333" />
-    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601005475930" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.2.bottom" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.2.bottom" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.2.center" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.2.center" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.2.left" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.2.left" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
-    <state width="905" height="179" key="GridCell.Tab.2.right" timestamp="1601000217221">
+    <state width="905" height="179" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state width="905" height="179" key="GridCell.Tab.2.right" timestamp="1601005475834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601000217221" />
+    <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601005475834" />
+    <state x="65" y="0" key="new project wizard" timestamp="1601006802233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601006802233" />
   </component>
 </project>
